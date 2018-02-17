@@ -1,6 +1,6 @@
 # Hyperapp One Parcel
 
-[![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com "Join us")
+[![Build Status](https://travis-ci.org/selfup/hyperapp-one-parcel.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one-parcel) [![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com "Join us")
 
 Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web application with [Hyperapp](https://github.com/hyperapp/hyperapp), and JSX.
 
@@ -9,6 +9,7 @@ Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web app
 <!-- TOC -->
 
 * [Installing](#installing)
+* [Testing](#testing)
 * [Development](#development)
   * [Wiping the Commit History](#wiping-the-commit-history)
 * [License](#license)
@@ -22,6 +23,14 @@ git clone https://github.com/selfup/hyperapp-one
 cd hyperapp-one-parcel
 npm install
 npm start
+```
+
+## Testing
+
+All tests can be found at the root of the test directory!
+
+```bash
+npm test
 ```
 
 ## Development
