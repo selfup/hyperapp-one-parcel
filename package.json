@@ -1,0 +1,27 @@
+{
+  "name": "hyperapp-parcel-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperapp": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.22.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.1"
+  }
+}

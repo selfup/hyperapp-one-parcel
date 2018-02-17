@@ -1,0 +1,25 @@
+@import 'colors';
+
+button {
+  border-style: solid;
+  border-color: $btn-border;
+  border-width: 1px;
+}
+
+.ha-logo {
+  height: 150px;
+  width: 160px;
+  background: url('./../images/ha-logo.png');
+}
+
+.btn {
+  margin-right: 3px;
+}
+
+.up {
+  background-color: $up;
+}
+
+.down {
+  background-color: $down;
+}
