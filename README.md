@@ -19,7 +19,7 @@ Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web app
 ## Installing
 
 ```bash
-git clone https://github.com/selfup/hyperapp-one
+git clone https://github.com/selfup/hyperapp-one-parcel
 cd hyperapp-one-parcel
 npm install
 npm start
