@@ -1,6 +1,6 @@
 # Hyperapp One Parcel
 
-[![Build Status](https://travis-ci.org/selfup/hyperapp-one.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one-parcel) [![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com "Join us")
+[![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com "Join us")
 
 Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web application with [Hyperapp](https://github.com/hyperapp/hyperapp), and JSX.
 
