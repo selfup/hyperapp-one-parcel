@@ -9,8 +9,8 @@
     "test": "jest --coverage --no-cache"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Regis Boudinot (selfup)",
+  "license": "MIT",
   "dependencies": {
     "hyperapp": "^1.1.2"
   },
