@@ -66,7 +66,7 @@ Now work as usual!
 
 ```bash
 git checkout -b gh-pages
-npm run build
+npm run ghp-build
 git add . && git commit -m "built"
 git push origin gh-pages
 ```
@@ -76,7 +76,7 @@ git push origin gh-pages
 ```bash
 git checkout gh-pages
 git merge master
-npm run build
+npm run ghp-build
 git add . && git commit -m "built"
 git push origin gh-pages
 ```
