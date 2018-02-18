@@ -12,6 +12,9 @@ Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web app
 * [Testing](#testing)
 * [Development](#development)
   * [Wiping the Commit History](#wiping-the-commit-history)
+  * [Deploying to GitHub Pages](#deploying-to-github-pages)
+    * [First Time](#first-time)
+    * [Every Time After](#every-time-after)
 * [License](#license)
 
 <!-- /TOC -->
