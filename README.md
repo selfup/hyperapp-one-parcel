@@ -60,6 +60,34 @@ git remote add origin <ssh_or_https_url>
 
 Now work as usual!
 
+### Deploying to GitHub Pages
+
+#### First Time
+
+```bash
+git checkout -b gh-pages
+npm run build
+git add . && git commit -m "built"
+git push origin gh-pages
+```
+
+#### Every Time After
+
+```bash
+git checkout gh-pages
+git merge master
+npm run build
+git add . && git commit -m "built"
+git push origin gh-pages
+```
+
+**Now visit**:
+
+* No custom domain: `yourUserName.github.io/yourRepoName`
+* With a custom domain: `yourCustomDomain/yourRepoName`
+
+Currently this repo is on gh-pages via: https://selfup.github.io/hyperapp-one-parcel/
+
 ## License
 
 Hyperapp One is MIT licensed. See [LICENSE](LICENSE).
