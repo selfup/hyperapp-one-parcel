@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url ./",
-    "ghp-build": "parcel build ./src/index.html --public-url ./dist && cp ./dist/index.html ./index.html",
+    "ghp-build": "parcel build ./src/index.html --out-dir build/ --public-url ./build && cp ./build/index.html ./index.html",
     "test": "jest --coverage --no-cache"
   },
   "keywords": [],
