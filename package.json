@@ -13,7 +13,8 @@
   "author": "Regis Boudinot (selfup)",
   "license": "MIT",
   "dependencies": {
-    "hyperapp": "^1.2.3"
+    "hyperapp": "^1.2.3",
+    "hyperapp-redux-devtools": "^1.1.6"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
