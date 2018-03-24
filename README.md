@@ -4,6 +4,10 @@
 
 Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web application with [Hyperapp](https://github.com/hyperapp/hyperapp), SCSS, and JSX.
 
+Now with Redux Dev Tool support!
+
+![2018-03-24 09 38 13](https://user-images.githubusercontent.com/9837366/37865207-244af05e-2f47-11e8-9226-e3803f6c3e9f.gif)
+
 <h2>Table of Contents</h2>
 
 <!-- TOC -->
