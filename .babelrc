@@ -9,12 +9,20 @@
   ],
   "presets": [
     [
-      "es2015",
+      "env",
       {
-          "es2015": {
-              "modules": false
-          }
+        "modules": false
       }
     ]
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env",
+          "es2015"
+        ]
+      ]
+    }
+  }
 }
