@@ -13,17 +13,31 @@
   "author": "Regis Boudinot (selfup)",
   "license": "MIT",
   "dependencies": {
-    "hyperapp": "^1.1.2"
+    "hyperapp": "^1.2.5",
+    "hyperapp-redux-devtools": "^1.1.6"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src/"
+    ]
   },
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-core": "^6.22.1",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-react-jsx": "^6.22.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.22.0",
-    "jest": "^22.3.0",
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.6.1"
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.1.0",
+    "parcel": "^1.11.0",
+    "sass": "^1.17.0"
   }
 }
