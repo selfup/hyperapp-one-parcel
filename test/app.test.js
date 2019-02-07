@@ -7,36 +7,38 @@ beforeEach(() => {
   document.body.innerHTML = '';
 });
 
-test('Counter test', (done) => {
-  const view = (state, actions) => h(
-    'div',
-    {
-      oncreate() {
-        expect(!document.body.innerHTML.includes('0')).toBe(true);
-        expect(document.body.innerHTML.includes('1')).toBe(true);
-        done();
+test('Counter test', done => {
+  const view = (state, actions) =>
+    h(
+      'div',
+      {
+        oncreate() {
+          expect(!document.body.innerHTML.includes('0')).toBe(true);
+          expect(document.body.innerHTML.includes('1')).toBe(true);
+          done();
+        },
       },
-    },
-    [App(state, actions)],
-  );
+      [App(state, actions)],
+    );
 
   const main = app(appState, appActions, view, document.body);
 
   main.up();
 });
 
-test('App test', (done) => {
-  const view = (state, actions) => h(
-    'div',
-    {
-      oncreate() {
-        expect(!document.body.innerHTML.includes('0')).toBe(true);
-        expect(document.body.innerHTML.includes('-1')).toBe(true);
-        done();
+test('App test', done => {
+  const view = (state, actions) =>
+    h(
+      'div',
+      {
+        oncreate() {
+          expect(!document.body.innerHTML.includes('0')).toBe(true);
+          expect(document.body.innerHTML.includes('-1')).toBe(true);
+          done();
+        },
       },
-    },
-    [App(state, actions)],
-  );
+      [App(state, actions)],
+    );
 
   const main = app(appState, appActions, view, document.body);
 

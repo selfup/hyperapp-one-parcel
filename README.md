@@ -1,6 +1,6 @@
 # Hyperapp One Parcel
 
-[![Build Status](https://travis-ci.org/selfup/hyperapp-one-parcel.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one-parcel) [![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com "Join us")
+[![Build Status](https://travis-ci.org/selfup/hyperapp-one-parcel.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one-parcel) [![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com 'Join us')
 
 Hyperapp One Parcel is a Parcel Packager boilerplate for quickstarting a web application with [Hyperapp](https://github.com/hyperapp/hyperapp), SCSS, and JSX.
 
@@ -12,14 +12,14 @@ Now with Redux Dev Tool support!
 
 <!-- TOC -->
 
-* [Installing](#installing)
-* [Testing](#testing)
-* [Development](#development)
-  * [Wiping the Commit History](#wiping-the-commit-history)
-  * [Deploying to GitHub Pages](#deploying-to-github-pages)
-    * [First Time](#first-time)
-    * [Every Time After](#every-time-after)
-* [License](#license)
+- [Installing](#installing)
+- [Testing](#testing)
+- [Development](#development)
+  - [Wiping the Commit History](#wiping-the-commit-history)
+  - [Deploying to GitHub Pages](#deploying-to-github-pages)
+    - [First Time](#first-time)
+    - [Every Time After](#every-time-after)
+- [License](#license)
 
 <!-- /TOC -->
 
@@ -90,8 +90,8 @@ git push origin gh-pages
 
 **Now visit**:
 
-* No custom domain: `yourUserName.github.io/yourRepoName`
-* With a custom domain: `yourCustomDomain/yourRepoName`
+- No custom domain: `yourUserName.github.io/yourRepoName`
+- With a custom domain: `yourCustomDomain/yourRepoName`
 
 Currently this repo is on gh-pages via: https://selfup.github.io/hyperapp-one-parcel/
 
