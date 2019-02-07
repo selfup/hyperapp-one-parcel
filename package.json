@@ -36,6 +36,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
+    "jest": "^24.1.0",
     "parcel": "^1.11.0",
     "sass": "^1.17.0"
   }
