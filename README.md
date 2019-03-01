@@ -1,3 +1,9 @@
+# ARCHIVED
+
+Converted Hyperapp One to parcel.
+
+Please use: [Hyperapp One](https://github.com/selfup/hyperapp-one) instead :pray:
+
 # Hyperapp One Parcel
 
 [![Build Status](https://travis-ci.org/selfup/hyperapp-one-parcel.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one-parcel) [![Slack](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com 'Join us')
